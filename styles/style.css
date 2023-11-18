@@ -3,23 +3,62 @@
 
 body {
   background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .wrapperNav {
+  position: absolute;
   width: 15rem;
-  background-size: cover;
-  margin-top: 20px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.075);
+  backdrop-filter: blur(10px);
+  top: 20px;
+  max-height: 70px;
 }
-.glass-effect {
+.wrapperNav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.wrapperNav i {
+  color: var(--color-text-grey);
+  font-size: 20px;
+  cursor: pointer;
+}
+.wrapperNav .active {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-theme-main);
+  color: black;
+  border-radius: 50%;
+}
+.first {
+  min-height: 40rem;
+  padding: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.089);
-  padding: 20px;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  gap: 30px;
+  background-color: rgba(0, 0, 255, 0.068);
 }
+.description {
+  min-width: 20rem;
+  color: var(--color-white);
+  padding: 40px;
+  margin: 0 200px;
+}
+/*
+linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), 
+rgba(var(--bs-body-bg-rgb), 1) 85%),radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), t
+ransparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), 
+transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), 
+transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
+*/

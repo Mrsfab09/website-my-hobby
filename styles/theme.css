@@ -3,9 +3,9 @@ body {
   --font-family-default: Helvetica, Arial, sans-serif;
 
   --color-text-default: #222020;
-  --color-text-grey: #7a7a7a;
+  --color-text-grey: #7a7a7aa8;
   --color-white: #ffffff;
-  --color-grey: #f4f4f4;
-  --color-theme-main: #00b0ff;
+  --color-grey: rgb(27, 27, 27);
+  --color-theme-main: #00aeffee;
   --bg-color: #222a35;
 }
