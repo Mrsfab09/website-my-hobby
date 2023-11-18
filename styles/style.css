@@ -1,0 +1,25 @@
+@import "./theme.css";
+@import "./globals.css";
+
+body {
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapperNav {
+  width: 15rem;
+  background-size: cover;
+  margin-top: 20px;
+}
+.glass-effect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.089);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  gap: 30px;
+}
