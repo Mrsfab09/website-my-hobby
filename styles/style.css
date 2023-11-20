@@ -1,59 +1,50 @@
 @import "./theme.css";
-@import "./globals.css";
+@import "./navbar.css";
+@import "./mainSection.css";
+@import "./shadows.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
 
-body {
-  background-color: var(--bg-color);
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg-color);
 }
-.wrapperNav {
-  position: absolute;
-  width: 15rem;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.075);
-  backdrop-filter: blur(10px);
-  top: 20px;
-  max-height: 70px;
-}
-.wrapperNav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-}
-.wrapperNav i {
-  color: var(--color-text-grey);
-  font-size: 20px;
-  cursor: pointer;
-}
-.wrapperNav .active {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-theme-main);
-  color: black;
-  border-radius: 50%;
-}
-/* section main  */
-.first-section {
-  min-height: 40rem;
-  max-height: 50rem;
-  padding: 100px;
-}
-.description {
-  max-width: 30rem;
-  color: var(--color-white);
-  padding: 40px;
-  margin: 0 200px;
-}
+
 .projects {
-  position: relative;
-  max-height: 400px;
+  width: 100%;
+  min-height: 600px;
+  max-height: 800px;
+  background: linear-gradient(to bottom, #121a26, #213046);
+}
+.projects h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+.container-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 30px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
