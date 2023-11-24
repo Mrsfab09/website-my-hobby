@@ -1,131 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="header">
-      <a href="#" class="logo">myHobby</a>
 
-      <input type="checkbox" id="check" />
-      <label for="check" class="icons">
-        <i class="bx bx-menu" id="menu-icon"></i>
-        <i class="bx bx-x" id="close-icon"></i>
-      </label>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <title>Document</title>
+</head>
 
-      <nav class="navbar">
-        <a href="#first-section" style="--i: 0">Home</a>
-        <a href="#projects" style="--i: 1">Projects</a>
-        <a href="#" style="--i: 2">About</a>
-      </nav>
-    </header>
-    <section class="first-section" id="first-section">
-      <div class="shadows"></div>
-      <div class="shadows2"></div>
-      <div class="shadows3"></div>
-      <div class="container-section">
-        <div class="container-text">
-          <h1>Moje Hobby</h1>
-          <p>
-            Moje hobby to fascynujący świat tworzenia stron internetowych, gdzie
-            nowoczesne technologie stają się płótnem mojej kreatywności. Podążam
-            za najnowszymi trendami w projektowaniu webowym, wykorzystując
-            nowoczesne narzędzia i języki programowania, aby stworzyć
-            interaktywne i responsywne strony, które wciągają od pierwszego
-            spojrzenia.
-          </p>
-        </div>
-        <div class="hero-images">
-          <div id="demo" class="carousel slide" data-bs-ride="carousel">
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="0"
-                class="active"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="2"
-              ></button>
-            </div>
+<body>
+  <header class="header">
+    <a href="#" class="logo">myHobby</a>
 
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/code2.png" />
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/programmer.png" />
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/code1.png" />
-              </div>
-            </div>
+    <input type="checkbox" id="check" />
+    <label for="check" class="icons">
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-x" id="close-icon"></i>
+    </label>
 
-            <!-- Left and right controls/icons -->
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#demo"
-              data-bs-slide="prev"
-            >
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#demo"
-              data-bs-slide="next"
-            >
-              <span class="carousel-control-next-icon"></span>
-            </button>
+    <nav class="navbar">
+      <a href="#first-section" style="--i: 0">Home</a>
+      <a href="#projects" style="--i: 1">Projects</a>
+      <a href="#" style="--i: 2">About</a>
+    </nav>
+  </header>
+  <section class="first-section" id="first-section">
+    <div class="shadows"></div>
+    <div class="shadows2"></div>
+    <div class="shadows3"></div>
+    <div class="container-section">
+      <div class="container-text">
+        <h1>Moje Hobby</h1>
+        <p>
+          Moje hobby to fascynujący świat tworzenia stron internetowych, gdzie
+          nowoczesne technologie stają się płótnem mojej kreatywności. Podążam
+          za najnowszymi trendami w projektowaniu webowym, wykorzystując
+          nowoczesne narzędzia i języki programowania, aby stworzyć
+          interaktywne i responsywne strony, które wciągają od pierwszego
+          spojrzenia.
+        </p>
+      </div>
+      <div class="hero-images">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
           </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/code2.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/programmer.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/code1.png" />
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
       </div>
-    </section>
-    <section class="projects" id="projects">
-      <h2>Projects</h2>
-      <div class="container-card">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <!-- TODO : card in bootstrap -->
+    <div class="container-card">
+      <div class="card">
+        <h4>Todo-App</h4>
+        <p>The todo app is a great app for managing your daily schedule and more. The application was written in React
+          using Vite</p>
+        <button>Check out</button>
       </div>
-    </section>
-    <section class="projects">
-      <h2>Projects</h2>
-    </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="card">
+        <h4>Pacman</h4>
+        <p>A version of the iconic Pac-Man game that introduces unique challenges related to the geometric world. Take
+          on the role
+          of Pac-Man, get a variety of shapes, avoid enemies and discover fascinating, variable levels that require
+          strategy and
+          reflexes. Get ready for an action-packed adventure in the reimagined world of Pac-Man!</p>
+        <button>Check out</button>
+      </div>
+      <div class="card">
+        <h4>Results-summary-component</h4>
+        <p><a href="https://mrsfab09.github.io/Results-summary-component">Check out</a></p>
+        <button>Check out</button>
+      </div>
+    </div>
+  </section>
+  <section class="projects">
+    <h2>Projects</h2>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
 <!--  Moje hobby to fascynujący świat tworzenia stron internetowych, gdzie
           nowoczesne technologie stają się płótnem mojej kreatywności. Podążam
