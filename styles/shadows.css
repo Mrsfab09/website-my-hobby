@@ -8,16 +8,17 @@
   position: relative;
   top: 45%;
   left: 40%;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  box-shadow: 150px 150px 100px #0bd1d1;
+  box-shadow: 150px 150px 80px #0bd1d1;
 }
 .shadows3 {
   position: absolute;
-  top: 55%;
-  width: 100px;
-  height: 100px;
+  top: 50%;
+  left: 10%;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   box-shadow: 150px 150px 100px rgba(255, 255, 255, 0.219);
 }
