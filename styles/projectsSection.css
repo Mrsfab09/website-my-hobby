@@ -4,8 +4,8 @@
 }
 .projects {
   width: 100%;
-  min-height: 600px;
-  max-height: 800px;
+  min-height: 900px;
+  max-height: 1000px;
   background: linear-gradient(to bottom, #121a26, #213046);
 }
 .projects h2 {
@@ -13,18 +13,18 @@
   color: #fff;
   text-align: center;
 }
-.projects img {
+.img-projects {
   width: 80px;
   height: 80px;
 }
-.container-card {
+.container-cart {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
-.card {
+.cart {
   width: 300px;
   height: 400px;
   background: linear-gradient(
@@ -41,16 +41,16 @@
   align-items: center;
   margin-bottom: 100px;
 }
-.card h4 {
+.cart h4 {
   text-align: center;
   color: #7a7a7a;
   margin-top: 30px;
 }
-.card p {
+.cart p {
   color: #7a7a7aa8;
   font-weight: 300;
 }
-.card img {
+.cart img {
   width: 40px;
   height: 35px;
 }
@@ -75,7 +75,7 @@
 .js {
   background-color: rgba(255, 255, 0, 0.212);
 }
-.card span {
+.cart span {
   padding: 14px;
   border-radius: 30px;
 }
@@ -87,18 +87,27 @@
 }
 .modal-body p {
   margin-top: 60px;
-  margin-left: 100px;
-  width: 300px;
+  margin-left: 50px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 400;
 }
-.modal-body img {
+.modal-img {
   width: 80%;
   height: 200px;
   margin-left: 50px;
+}
+.modal-img2 {
+  width: 80%;
+  height: 400px;
+  margin-left: 60px;
+}
+.modal-img3 {
+  width: 100%;
+  height: 300px;
 }
 .modal-buttons {
   display: flex;

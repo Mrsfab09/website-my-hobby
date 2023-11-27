@@ -30,7 +30,7 @@
       <nav class="navbar">
         <a href="#first-section" style="--i: 0">Home</a>
         <a href="#projects" style="--i: 1">Projects</a>
-        <a href="#" style="--i: 2">About</a>
+        <a href="#about" style="--i: 2">About</a>
       </nav>
     </header>
     <section class="first-section" id="first-section">
@@ -108,9 +108,11 @@
     <div id="projects"></div>
 
     <section class="projects">
-      <h2><img src="./assets/projects.png" alt="" />Projects</h2>
-      <div class="container-card">
-        <div class="card">
+      <h2>
+        <img class="img-projects" src="./assets/projects.png" alt="" />Projects
+      </h2>
+      <div class="container-cart">
+        <div class="cart">
           <h4>Todo-App</h4>
           <div class="technologies">
             <span class="html"><img src="./assets/html.png" alt="" />HTML</span>
@@ -143,7 +145,7 @@
                 ></button>
               </div>
               <div class="modal-body">
-                <img src="./assets/todo.png" alt="" />
+                <img class="modal-img" src="./assets/todo.png" alt="" />
                 <p>
                   The todo app is a great app for managing your daily schedule
                   and more. The application was written in React using Vite
@@ -171,7 +173,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="cart">
           <h4>Pacman</h4>
           <div class="technologies">
             <span class="html"><img src="./assets/html.png" alt="" />HTML</span>
@@ -192,7 +194,7 @@
 
         <div class="modal" id="pacman">
           <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content bg-dark text-secondary">
               <!-- Modal Header -->
               <div class="modal-header">
                 <h4 class="modal-title">Pacman</h4>
@@ -202,20 +204,34 @@
                   data-bs-dismiss="modal"
                 ></button>
               </div>
-              <div class="modal-body">Modal body..</div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-danger"
-                  data-bs-dismiss="modal"
-                >
-                  Close
-                </button>
+              <div class="modal-body">
+                <img class="modal-img2" src="./assets/pacman.png" alt="" />
+                <p>
+                  Wersja kultowej gry Pac-Man wprowadzająca unikalne wyzwania
+                  związane ze światem geometrycznym. Wciel się w Pac-Mana,
+                  przybieraj różnorodne kształty, unikaj wrogów i odkrywaj
+                  fascynujące, zmienne poziomy wymagające strategii i refleksu.
+                  Przygotuj się na pełną akcji przygodę w odnowionym świecie
+                  Pac-Mana!
+                </p>
+                <div class="modal-buttons">
+                  <a href="https://github.com/Mrsfab09/Pacman" target="_blank">
+                    <button>
+                      <img src="./assets/folder.png" alt="" /> Repo
+                    </button></a
+                  >
+                  <a href="https://mrsfab09.github.io/Pacman/" target="_blank">
+                    <button>
+                      <img src="./assets/website.png" alt="" />
+                      Website
+                    </button></a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="cart">
           <h4>Results-summary-component</h4>
           <div class="technologies">
             <span class="html"><img src="./assets/html.png" alt="" />HTML</span>
@@ -235,7 +251,7 @@
 
         <div class="modal" id="summary">
           <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content bg-dark text-secondary">
               <!-- Modal Header -->
               <div class="modal-header">
                 <h4 class="modal-title">Results-summary-component</h4>
@@ -245,23 +261,94 @@
                   data-bs-dismiss="modal"
                 ></button>
               </div>
-              <div class="modal-body">Modal body..</div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-danger"
-                  data-bs-dismiss="modal"
-                >
-                  Close
-                </button>
+              <div class="modal-body">
+                <img
+                  class="modal-img3"
+                  src="./assets/frontend-mentor.png"
+                  alt=""
+                />
+                <div class="modal-buttons">
+                  <a
+                    href="https://github.com/Mrsfab09/Results-summary-component"
+                    target="_blank"
+                  >
+                    <button>
+                      <img src="./assets/folder.png" alt="" /> Repo
+                    </button></a
+                  >
+                  <a
+                    href="https://mrsfab09.github.io/Results-summary-component/"
+                    target="_blank"
+                  >
+                    <button>
+                      <img src="./assets/website.png" alt="" />
+                      Website
+                    </button></a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <div id="about"></div>
     <section class="about">
       <h2>About</h2>
+      <div class="container-card fadeIn">
+        <div class="card card_p br-primary mb-3" style="width: 80%">
+          <div class="card-header fs-3">Moje hobby</div>
+          <div class="card-body">
+            <p class="card-text">
+              Tworzenie stron internetowych przy użyciu najnowszych technologii
+              to dla mnie nie tylko hobby, ale również fascynująca podróż po
+              świecie innowacyjnych narzędzi i nowoczesnych rozwiązań. Każdy
+              projekt jest dla mnie możliwością wyrażenia kreatywności i
+              precyzji, a także nieustannej nauki. Świat web developmentu pełen
+              jest dynamicznych zmian i nowych trendów, które inspirują mnie do
+              eksperymentowania z różnymi językami programowania, frameworkami i
+              narzędziami.
+            </p>
+          </div>
+        </div>
+        <div class="card card_i br-info mb-3" style="width: 80%">
+          <div class="card-header fs-3">Technologie jakich używam</div>
+          <div class="card-body">
+            <div class="card-text">
+              <div class="size logo-html">
+                <img src="./assets/html.png" alt="" />
+              </div>
+              <div class="size logo-css">
+                <img src="./assets/css.png" alt="" />
+              </div>
+              <div class="size logo-js">
+                <img src="./assets/js.png" alt="" />
+              </div>
+              <div class="size logo-react">
+                <img src="./assets/React-icon.png" alt="" />
+              </div>
+              <div class="size logo-nodejs">
+                <img src="./assets/nodejs.png" alt="" />
+              </div>
+              <div class="size logo-nextjs">
+                <img src="./assets/nextjs.png" alt="" />
+              </div>
+              <div class="size logo-bootstrap">
+                <img src="./assets/bootstrap.png" alt="" />
+              </div>
+              <div class="size logo-tailwind">
+                <img src="./assets/taiwindcss.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="card card_i br-primary mb-3" style="width: 80%">
+          <div class="card-header fs-3">Czego zamierzam sie nauczyc</div>
+          <div class="card-body">
+            <p class="card-text"></p>
+          </div> -->
+        </div>
+      </div>
     </section>
     <footer></footer>
     <script

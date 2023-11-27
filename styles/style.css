@@ -17,15 +17,93 @@ body {
   min-height: 100vh;
   background-color: var(--bg-color);
 }
-
+#about {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #213046, #213046);
+}
 .about {
   width: 100%;
-  min-height: 600px;
-  max-height: 800px;
+  min-height: 800px;
+  max-height: 1000px;
   background: linear-gradient(to top, #121a26, #213046);
 }
 .about h2 {
+  position: relative;
   font-size: 2.5rem;
   color: #fff;
   text-align: center;
+  margin-bottom: 100px;
+}
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.card {
+  height: 200px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: #c2c2c298;
+}
+.card_p {
+  background: linear-gradient(to left, #0c6df417, #0c6df45d);
+}
+.card_i {
+  background: linear-gradient(to left, #10b5ec2d, #10b5ec46);
+}
+.br-primary {
+  border-left: 5px solid #0c6cf4;
+}
+.br-info {
+  border-left: 5px solid #10b4ec;
+}
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.size {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.size img {
+  width: 50px;
+  height: 50px;
+}
+.logo-html {
+  background-color: rgba(255, 102, 0, 0.342);
+}
+.logo-css {
+  background-color: rgba(0, 132, 255, 0.575);
+}
+.logo-js {
+  background-color: rgba(255, 255, 0, 0.452);
+}
+.logo-react {
+  background-color: rgba(127, 255, 212, 0.267);
+}
+.logo-nodejs {
+  background-color: rgba(1, 209, 81, 0.404);
+}
+.logo-nextjs {
+  background-color: rgba(0, 0, 0, 0.404);
+}
+.logo-bootstrap {
+  background-color: rgba(98, 0, 255, 0.199);
+}
+.logo-tailwind {
+  background-color: rgba(0, 225, 255, 0.082);
+}
+footer {
+  min-height: 300px;
+  max-height: 1000px;
 }
