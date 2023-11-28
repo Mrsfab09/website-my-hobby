@@ -32,3 +32,32 @@
   width: 300px;
   height: 300px;
 }
+@media (max-width: 768px) {
+  .first-section {
+    width: 50%;
+    min-height: 990px;
+    padding: 70px;
+  }
+  .first-section h1 {
+    font-size: 3rem;
+    color: white;
+    margin-top: 50px;
+  }
+  .first-section p {
+    width: 300px;
+    color: #7a7a7aa8;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .container-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-text {
+    width: 50%;
+    height: 300px;
+  }
+  .hero-images {
+    opacity: 0;
+  }
+}
