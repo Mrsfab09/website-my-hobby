@@ -20,14 +20,21 @@ body {
 }
 
 .footer {
+  background: linear-gradient(to bottom, #121a26, #121a26, #21304665);
   width: 100%;
   position: relative;
-  min-height: 400px;
-  max-height: 1000px;
+  min-height: 200px;
+  max-height: 800px;
+  text-align: center;
 }
-.footer img {
-  position: absolute;
-  top: -15%;
+.footer p {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.377);
+  margin-top: 400px;
+}
+.footer button {
+  margin-top: 50px;
 }
 /* Pionowy pasek przewijania */
 ::-webkit-scrollbar {
